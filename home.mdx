@@ -4,78 +4,82 @@ description: "Vixen Product Documentation"
 mode: "custom"
 ---
 
-<div className="vx-page">
-  <div className="vx-container">
-    <section className="vx-hero">
-      <div className="vx-brand">
-        <div className="vx-squares">
-          <span className="vx-square vx-square-1" />
+<div className="min-h-screen bg-gradient-to-br from-zinc-950 via-zinc-950 to-slate-900 text-white px-6 py-20">
+  <div className="max-w-5xl mx-auto">
+    <section className="text-center">
+      <div className="flex items-center justify-center gap-6 mb-10">
+        <div className="grid grid-cols-2 gap-3">
+          <span className="block w-12 h-12 bg-indigo-500" />
 
-          <span className="vx-square vx-square-2" />
+          <span className="block w-9 h-9 bg-indigo-500 mt-9" />
 
-          <span className="vx-square vx-square-3" />
+          <span className="block w-7 h-7 bg-indigo-500 ml-9" />
         </div>
 
-        <div className="vx-logo-text">vixen</div>
+        <div className="text-6xl md:text-7xl font-bold tracking-tight">
+          vixen
+        </div>
       </div>
 
-      <h1 className="vx-title">Vixen Product Documentation</h1>
+      <h1 className="text-3xl md:text-4xl font-bold">
+        Vixen Product Documentation
+      </h1>
 
-      <p className="vx-subtitle">
+      <p className="mt-5 text-zinc-300 font-medium">
         Welcome to Vixen's universal documentation
       </p>
 
-      <div className="vx-buttons">
-        <a href="/product-guides" className="vx-btn vx-btn-primary">
+      <div className="mt-7 flex items-center justify-center gap-3">
+        <a href="/product-guides" className="rounded-lg bg-blue-600 px-5 py-3 text-sm font-bold text-white hover:bg-blue-500">
           ☆ Get Started
         </a>
 
-        <a href="https://seulink.com" className="vx-btn vx-btn-secondary">
+        <a href="https://seulink.com" className="rounded-lg border border-zinc-700 bg-zinc-900 px-5 py-3 text-sm font-bold text-zinc-200 hover:bg-zinc-800">
           🛒 Our Store
         </a>
       </div>
     </section>
 
-    <section className="vx-cards">
-      <div className="vx-card">
-        <div className="vx-card-icon">⊘</div>
-        <div className="vx-card-title">No Hassle</div>
+    <section className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-5">
+      <div className="rounded-xl border border-zinc-800 bg-zinc-950 p-6">
+        <div className="text-2xl">⊘</div>
+        <h3 className="mt-5 font-bold">No Hassle</h3>
 
-        <div className="vx-card-text">
+        <p className="mt-4 text-sm leading-6 text-zinc-300 font-medium">
           Everything, from product setup, general FAQ, and fixes all in one place.
-        </div>
+        </p>
       </div>
 
-      <div className="vx-card">
-        <div className="vx-card-icon">♧</div>
-        <div className="vx-card-title">Easy To Follow</div>
+      <div className="rounded-xl border border-zinc-800 bg-zinc-950 p-6">
+        <div className="text-2xl">♧</div>
+        <h3 className="mt-5 font-bold">Easy To Follow</h3>
 
-        <div className="vx-card-text">
+        <p className="mt-4 text-sm leading-6 text-zinc-300 font-medium">
           Guides tailored for new and advanced users alike.
-        </div>
+        </p>
       </div>
 
-      <div className="vx-card">
-        <div className="vx-card-icon">🎮</div>
-        <div className="vx-card-title">24/7 Support</div>
+      <div className="rounded-xl border border-zinc-800 bg-zinc-950 p-6">
+        <div className="text-2xl">🎮</div>
+        <h3 className="mt-5 font-bold">24/7 Support</h3>
 
-        <div className="vx-card-text">
+        <p className="mt-4 text-sm leading-6 text-zinc-300 font-medium">
           Any problems? Contact us via our website!
-        </div>
+        </p>
       </div>
     </section>
 
-    <div className="vx-line" />
+    <div className="mt-20 border-t border-zinc-800" />
 
-    <section className="vx-section">
-      <h2>Get Started!</h2>
+    <section className="mt-20">
+      <h2 className="text-2xl font-bold">Get Started!</h2>
 
-      <p>
+      <p className="mt-6 max-w-2xl leading-7 text-zinc-300 font-medium">
         To get started, select your desired product from the product guides.
       </p>
 
-      <p>
-        <strong>Important:</strong> The guide provides detailed instructions.
+      <p className="mt-5 max-w-2xl leading-7 text-zinc-300 font-medium">
+        <strong className="text-white">Important:</strong> The guide provides detailed instructions.
         We recommend attempting all suggested fixes before reaching out to support.
       </p>
     </section>
