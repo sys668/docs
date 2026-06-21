@@ -30,7 +30,7 @@
     },
     "directory": "card",
     "pages": [
-      "home"
+      "home.mdx"
     ]
   },
   "logo": {
